@@ -165,7 +165,7 @@
 
       <footer class="kabsa-footer">
         <div class="kabsa-footer-rule"></div>
-        <p class="kabsa-footer-text">Copyrights © 2025 OliveRoots | All Rights Reserved</p>
+        <p class="kabsa-footer-text">Copyrights © 2025 OliveRoots  |  All Rights Reserved</p>
       </footer>
     </v-container>
   </div>
