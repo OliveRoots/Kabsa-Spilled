@@ -177,7 +177,7 @@ export default {
   methods: {
     async downloadAll () {
       const link = document.createElement('a')
-      link.href = 'https://oliveroots.github.io/Kabsa-Spilled/Game Images/Game Images.zip'
+      link.href = 'https://oliveroots.github.io/kabsa-spilled/Game Images/Game Images.zip'
       link.download = 'Game Images.zip'
       link.click()
     }
