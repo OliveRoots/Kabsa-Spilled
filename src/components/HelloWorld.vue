@@ -44,10 +44,16 @@
               </a>
             </p>
 
-            <v-btn block class="kabsa-btn kabsa-btn-gold" @click="downloadAll">
-              <v-icon class="mr-2" size="18">mdi-download</v-icon>
-              Download images
-            </v-btn>
+           <v-btn
+                block
+                class="kabsa-btn kabsa-btn-gold"
+                href="https://drive.google.com/drive/folders/1CH3HFDnMUQ5tHF-9RrioGNuqNuCvDtfj?usp=sharing"
+                target="_blank"
+                rel="noopener"
+              >
+                <v-icon class="mr-2" size="18">fa-brands fa-google-drive</v-icon>
+                Download Game Assets
+              </v-btn>
 
             <v-divider class="kabsa-divider"></v-divider>
 
@@ -144,10 +150,15 @@
             <h2 class="kabsa-section-heading">Screenshots</h2>
             <div class="kabsa-rule"></div>
           </div>
-          <v-btn class="kabsa-btn kabsa-btn-outline" @click="downloadAll">
-            <v-icon class="mr-2" size="18">mdi-download</v-icon>
-            Download images
-          </v-btn>
+                <v-btn
+          class="kabsa-btn kabsa-btn-outline"
+          href="https://drive.google.com/drive/folders/1CH3HFDnMUQ5tHF-9RrioGNuqNuCvDtfj?usp=sharing"
+          target="_blank"
+          rel="noopener"
+        >
+           <v-icon class="mr-2" size="18">fa-brands fa-google-drive</v-icon>
+          Download Game Assets
+        </v-btn>
         </div>
 
         <div class="kabsa-frame">
@@ -175,12 +186,7 @@
 export default {
   name: 'HelloWorld',
   methods: {
-    async downloadAll () {
-      const link = document.createElement('a')
-      link.href = 'https://oliveroots.github.io/kabsa-spilled/Game Images/Game Images.zip'
-      link.download = 'Game Images.zip'
-      link.click()
-    }
+
   },
   data: () => ({
     // Not currently wired to the template. Kept as a starting point if you
