@@ -200,14 +200,14 @@ export default {
       { text: 'About Developer', to: 'mdi-flag' }
     ],
     screenshots: [
-      require('@/assets/Game Images/screen1.png'),
-      require('@/assets/Game Images/screen2.png'),
-      require('@/assets/Game Images/screen3.png'),
-      require('@/assets/Game Images/screen4.png'),
-      require('@/assets/Game Images/screen5.png'),
-      require('@/assets/Game Images/screen6.png'),
-      require('@/assets/Game Images/screen7.png'),
-      require('@/assets/Game Images/screen8.png')
+      require('@/assets/Game Images/screen1.jpeg'),
+      require('@/assets/Game Images/screen2.jpeg'),
+      require('@/assets/Game Images/screen3.jpeg'),
+      require('@/assets/Game Images/screen4.jpeg'),
+      require('@/assets/Game Images/screen5.jpeg'),
+      require('@/assets/Game Images/screen6.jpeg'),
+      require('@/assets/Game Images/screen7.jpeg'),
+      require('@/assets/Game Images/screen8.jpeg')
     ]
   })
 }
